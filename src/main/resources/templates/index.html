@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layouts/defaultTemplate">
+
+<head>
+
+  <style>
+
+    .footer{
+
+      position: fixed;
+
+      left: 0;
+
+      bottom: 0;
+
+      width: 100%;
+
+      background-color: #9CB2BC;
+
+      color: black;
+
+      text-align: center;
+
+    }
+
+    h3{
+
+     color: gray;
+
+    }
+
+    h1{
+
+     text-transform: uppercase;
+
+    }
+
+  </style>
+
+  <meta charset="UTF-8">
+
+  <title>Title</title>
+
+</head>
+
+<body>
+
+<div layout:fragment="content">
+
+  <img src="https://media.istockphoto.com/id/1321466605/vector/conveyor-belt-machine-concept-in-warehouse.jpg?s=612x612&w=0&k=20&c=zw4X5YIDwJdXvg6srvkS30F6dd1Q2MhpDqj8A13YMK8=" alt="warehouse">
+
+<h1> Welcome </h1>
+
+<h3> Simplicity and Trust is the way to go, and it’s what we’re all about. </h3>
+
+</div>
+
+<div layout:fragment="footer" class="footer"></div>
+
+</body>
+
+</html>
